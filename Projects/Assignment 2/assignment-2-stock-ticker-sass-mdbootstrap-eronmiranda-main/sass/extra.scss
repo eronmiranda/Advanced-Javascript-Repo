@@ -1,0 +1,37 @@
+$background: #181C30;;
+$outline-color:#607d8b  ;
+$font-color: #fff;
+
+@mixin rounded-border {
+  border: 1px solid $outline-color;
+}
+@mixin container-padding{
+  padding: 1rem;
+}
+
+body {
+  background-color: $background;
+  .container {
+    max-width: 720px;
+    color: $font-color;
+    margin-top: 1rem;
+    .frm{
+      label,input{
+          color:$font-color;
+      }
+    }
+    .row{
+      @include rounded-border;
+    }
+    .col {
+      @include rounded-border;
+      @include container-padding;
+      h2{
+        margin-bottom: 1rem;
+      }
+    }
+    .stock-details{
+      @include container-padding;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+$background-color: #f4f4f4;
+$outline-color: #BCCCDC;
+
+@mixin rounded-border {
+  padding: 1rem;
+  border: 1px solid $outline-color;
+  border-radius: 10px;
+}
+
+body {
+  background-color: $background-color;
+  .container {
+    max-width: 600px;
+    .weather-display {
+      @include rounded-border;
+      h3 {
+        padding-top: 1rem;
+      }
+      .forecast .forecast-detail {
+        @include rounded-border;
+      }
+    }
+  }
+}

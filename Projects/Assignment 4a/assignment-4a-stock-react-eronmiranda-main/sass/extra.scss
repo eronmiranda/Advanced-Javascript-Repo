@@ -1,0 +1,17 @@
+$background: #f4f4f4;
+$outline-color: #BCCCDC;
+
+@mixin outer-border {
+    padding: 1rem;
+    border: 1px solid $outline-color;
+}
+
+body {
+  background-color: $background;
+  .container {
+    max-width: 600px;
+    .col {
+      @include outer-border;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+body {
+  background-color: #181C30; }
+  body .container {
+    max-width: 720px;
+    color: #fff;
+    margin-top: 1rem; }
+    body .container .frm label, body .container .frm input {
+      color: #fff; }
+    body .container .row {
+      border: 1px solid #607d8b; }
+    body .container .col {
+      border: 1px solid #607d8b;
+      padding: 1rem; }
+      body .container .col h2 {
+        margin-bottom: 1rem; }
+    body .container .stock-details {
+      padding: 1rem; }

@@ -1,0 +1,32 @@
+{
+  "name": "assignment01-stock-ticker-app",
+  "version": "0.0.1",
+  "description": "ES6 application for assignment 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel js/main.es6.js -o js/main.js"
+  },
+  "keywords": [
+    "stock"
+  ],
+  "author": "Eronielle Miranda",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-plugin-iife-wrap": "^1.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "iife-wrap"
+    ]
+  }
+}

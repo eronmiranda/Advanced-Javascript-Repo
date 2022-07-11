@@ -1,0 +1,14 @@
+body {
+  background-color: #f4f4f4; }
+  body .container {
+    max-width: 600px; }
+    body .container .weather-display {
+      padding: 1rem;
+      border: 1px solid #BCCCDC;
+      border-radius: 10px; }
+      body .container .weather-display h3 {
+        padding-top: 1rem; }
+      body .container .weather-display .forecast .forecast-detail {
+        padding: 1rem;
+        border: 1px solid #BCCCDC;
+        border-radius: 10px; }

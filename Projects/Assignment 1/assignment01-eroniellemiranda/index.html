@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Stock Ticker App - Assignment 1</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="manifest" href="site.webmanifest" />
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <meta name="theme-color" content="#fafafa" />
+</head>
+
+<body>
+  <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+  <form class="frm stock-ticker">
+    <label for="stock-symbol">Enter a stock symbol</label>
+    <input type="text" id="stock-symbol" name="stock-symbol" />
+    <button type="submit">Get Stock</button>
+  </form>
+
+  <section class="stock-display">
+    <h1>Stock Information (Daily)</h1>
+    <div class="details">Stock Symbol: <span class="stock-symbol"></span></div>
+    <div class="details">Date: <span class="date"></span></div>
+    <div class="details">Open Price: <span class="open-price"></span></div>
+    <div class="details">Close Price: <span class="close-price"></span></div>
+    <!-- <div class="details">High Price: <span class="high-price"></span></div>
+    <div class="details">Low Price: <span class="low-price"></span></div> -->
+  </section>
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

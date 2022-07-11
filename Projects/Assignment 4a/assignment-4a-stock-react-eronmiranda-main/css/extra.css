@@ -1,0 +1,7 @@
+body {
+  background-color: #f4f4f4; }
+  body .container {
+    max-width: 600px; }
+    body .container .col {
+      padding: 1rem;
+      border: 1px solid #BCCCDC; }
